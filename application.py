@@ -1,3 +1,8 @@
+import os
+
+user = os.environ.get('user')
+api_key = os.environ.get('api_key')
+
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
